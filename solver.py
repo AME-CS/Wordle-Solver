@@ -63,7 +63,6 @@ for _ in range(iterations):
             curr_word=random.choice(filtered_words)
             guesses+=1
         except:
-            print("lol u fukd up")
             break
         for i,letter in enumerate(curr_word):
             if letter in word and letter!=word[i]:
